@@ -353,3 +353,7 @@ td:hover {
     height: 1px;
     background: red;
 }
+
+p{
+    text-align: justify;
+}
