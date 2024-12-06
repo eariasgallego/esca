@@ -68,7 +68,7 @@ const listUsers = async () => {
                 </tr>`;
             }
         });
-
+        const tableBody_users = document.getElementById("tableBody_users");
         tableBody_users.innerHTML = content2;
     } catch (ex) {
         alert(ex);
