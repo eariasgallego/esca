@@ -73,14 +73,38 @@
                     
                 </div>
                 <div class="containerForm">
+
                     <article class="article">
-                        <h2>Titulo del Articulo 2</h2>
-                        <p>Texto del Articulo</p>
+                        <h2>Fecha actual:</h2>
                     </article>
+
                     <article class="article">
-                        <h2>Titulo del Articulo 2</h2>
-                        <p>Texto del Articulo</p>
+                        <div class="calendar">
+                            <div class="header">
+                                <button id="prevMonth">◀</button>
+                                <h2 id="monthYear"></h2>
+                                <button id="nextMonth">▶</button>
+                            </div>
+                            <table id="calendarTable">
+                                <thead>
+                                    <tr>
+                                        <th>Dom</th>
+                                        <th>Lun</th>
+                                        <th>Mar</th>
+                                        <th>Mié</th>
+                                        <th>Jue</th>
+                                        <th>Vie</th>
+                                        <th>Sáb</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="calendarBody">
+                                    <!-- Las filas de los días se generarán dinámicamente -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <script src="calendar.js"></script>
                     </article>
+
                 </div>
 
             </div>

@@ -250,3 +250,61 @@ https://mybrandnewlogo.com/es/generador-de-paleta-de-colores
     justify-content: center;
     margin: 50px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.calendar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+td:hover {
+    background: #f0f8ff;
+    cursor: pointer;
+}
+
+.today {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
