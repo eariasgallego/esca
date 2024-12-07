@@ -218,14 +218,15 @@ https://mybrandnewlogo.com/es/generador-de-paleta-de-colores
  }
 
  .containerFooter img{
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 290px;
     width: 80px;
     height: auto;
  }
 
  .containerFooter h1{
-    margin-right: 250px;
-    margin-left: 230px;
+    /*margin-right: 250px;*/
+    margin-left: 350px;
  }
 
  /* FORMATO DE FORMULA PARA AGREGAR PRODUCTOS - CLIENTES - PROVEEDORES. 
