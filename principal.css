@@ -357,3 +357,11 @@ td:hover {
 p{
     text-align: justify;
 }
+
+.ESCA{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-left: 120px;
+
+}
